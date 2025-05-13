@@ -2,7 +2,7 @@ import axios, {AxiosError} from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export const API = axios.create({
-  baseURL: 'http://192.168.0.108:3001',
+  baseURL: 'http://192.168.0.110:3001', //IP of user pc
   timeout: 20000,
 });
 

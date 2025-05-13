@@ -26,3 +26,4 @@ const itemSchema = new mongoose.Schema(
 );
 
 export const Item = mongoose.model('Item', itemSchema)
+

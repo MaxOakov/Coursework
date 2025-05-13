@@ -24,7 +24,9 @@ server.listen(3001, () => {
   console.log('Server running on http://localhost:3001/');
 });
 
-const MONGO_URL = 'mongodb+srv://maksymdubovit2022:Z7kV9fzAUnxxTwtH@cluster0.tkwhhdr.mongodb.net/?retryWrites=true&w=majority'; // DB URI
+const MONGO_URL = 'mongodb+srv://maksymdubovit2022:jzJm7uVANNC3k6Xq@cluster0.1flqbod.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+
+
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL,)
